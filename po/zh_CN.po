@@ -9,13 +9,14 @@
 # Leah Liu <lliu@redhat.com>, 2016. #zanata
 # Charles Lee <lchopn@gmail.com>, 2020.
 # yangyangdaji <1504305527@qq.com>, 2023.
+# Kung Kun <kun17.kung317@silomails.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-07-30 10:21+0000\n"
-"Last-Translator: yangyangdaji <1504305527@qq.com>\n"
+"PO-Revision-Date: 2026-10-06 14:17+0000\n"
+"Last-Translator: Kung Kun <kun17.kung317@silomails.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/fedora-sysv/initscripts/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -23,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 2026.10\n"
 
 #: ../network-scripts/ifdown:15 ../network-scripts/ifdown:22
 msgid "usage: ifdown <configuration>"
@@ -325,7 +326,7 @@ msgstr "用法： ifup-routes <net-device> [<nickname>]"
 
 #: ../network-scripts/ifup-routes:26 ../network-scripts/ifup-routes:47
 msgid "Failed to add route ${line}, using ip route replace instead."
-msgstr "无法添加路由 ${line}，请改用 ip 路由替换。"
+msgstr "添加路由 ${line} 失败，改用 ip route replace。"
 
 #: ../network-scripts/ifup-sit:63
 msgid "Missing remote IPv4 address of tunnel, configuration is not valid"
